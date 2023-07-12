@@ -1,50 +1,99 @@
+body, html {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    color: midnightblue
+}
 
-body,
-    html {
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: aliceblue;
-        color:midnightblue
-    } 
-    
-    .navigation {
-        background-color: #f6c6c6;
-        overflow: hidden;
-    }
-    
-    .navigation a {
-        float: right;
-        color: #453e3e;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-    
-    .navigation a:hover {
-        background-color: #a68e8e;
-        color: black;
-    }
-    
-    .navigation a.split {
-        float: right;
-        background-color: #99d5bf;
-        color: white;
-    }
+.navigation {
+    background-color: #f6c6c6;
+    overflow: hidden;
+}
 
-    h1 {
-        font-size: 225%;
-        text-align: center;
-    }
-    .image  {
-        height: 15%;
-        width: 15%; 
-        border-radius: 25%;
-        display: block;
-        margin-left: auto;
-        margin-right:auto;
-        
+.navigation a {
+    float: right;
+    color: #453e3e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
+.navigation a:hover {
+    background-color: #a68e8e;
+    color: black;
+}
 
+.navigation a.split {
+    float: right;
+    background-color: #99d5bf;
+    color: white;
+}
+
+h1 {
+    font-size: 225%;
+    text-align: center;
+    /* color: aliceblue; */
+}
+
+h2 {
+    font-size: 150%;
+    text-align: left;
+
+}
+
+.image {
+    height: 15%;
+    width: 15%;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-container {
+    display: flex;
+    height: fit-content;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#main-card {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.img-kauai {
+    width: 80%;
+}
+
+.smaller-images-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px;
+    width: 80%;
+}
+
+.smaller-images-container img {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .image {
+        width: 150px;
     }
-    
+}
+
+@media screen and (max-width: 550px) {
+    .about-me-info {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero-text {
+        font-size: 20px;
+    }
+}
