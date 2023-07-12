@@ -10,79 +10,123 @@
 </head>
 
 <header>
- <h1>I am Lisa Eimicke</h1>
- </header>
+    <h1 class="hero-text">I am Lisa Eimicke</h1>
+
     <nav class="navigation">
         <a id="AboutMe" href="#AboutMe">About Me</a>
         <a id="Work" href="#Work">Work</a>
         <a id="ContactMe" href="#ContactMe">Contact Me</a>
     </nav>
-<img src="./Assets/images/my_profile.jpg" alt="Picture of Lisa Eimicke" class="image">
+    <img src="./Assets/images/my_profile.jpg" alt="Picture of Lisa Eimicke" class="image">
+</header>
 
 <body>
-    <section>
-        <figure>
-            <h2>About Me</h2>
-            <p>This is a section about me and the work I have done in my professional life since graduating college from
-                CU Boulder in May of 2014.
-            </p>
-        </figure>
-        <h2>Work</h2>
-        <div class="card">
+    <section id="AboutMe">
+        <h2>About Me</h2>
+        <p class="about-me-info">This is a section about me and the work I have done in my professional life.
+        </p>
+    </section>
+
+    <h2>Work</h2>
+    <section id="Work" class="card-container">
+        <figure class="card" id="main-card">
+            <a href="https://redactdname.github.io/prework-study-guide/">
+                <img src="Assets/images/background.jpg" class="img-kauai"
+                    alt="Pink Kauai sunset overlooking Hanalei Bay from distance" />
+            </a>
             <div class="card-body">
-                <article>Prework Study Guide
-                    <link rel="stylesheet" href="https://redactdname.github.io/prework-study-guide/">
-                </article>
-                <article>Horiseon Homepage
-                    <link rel="stylesheet" href="https://redactdname.github.io/week1-refactor-seo/">
-                </article>
-                <h3 class="card-title">Horiseon</h5>
+                <h3 class="card-title">Prework Study Guide</h3>
+                <p class="card-text">
+                    A quick and easy study guide for completing bootcamp prework with tips and tools.
+                </p>
+            </div>
+        </figure>
+
+        <div class="smaller-images-container">
+            <figure class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+
+                    <a href="https://redactdname.github.io/week1-refactor-seo/">
+                        <!-- <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div> -->
+                        <img src="Assets/images/digital-marketing-meeting.jpg" class="img-fluid smaller-images" />
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the bulk of the
                         card's content.
                     </p>
-                    <button type="button" class="btn btn-primary">Button</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                </p>
-                <button type="button" class="btn btn-primary">Button</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                </p>
-                <button type="button" class="btn btn-primary">Button</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the
-                    card's content.
-                </p>
-                <button type="button" class="btn btn-primary">Button</button>
-            </div>
-        </div>
 
-        <article></article>
-        <article></article>
-        <article></article>
+
+                </div>
+            </figure>
+
+            <figure class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                    </p>
+
+
+                </div>
+            </figure>
+
+            <figure class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                    </p>
+
+
+                </div>
+            </figure>
+
+            <figure class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
+                    <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                    </p>
+
+
+                </div>
+            </figure>
+        </div>
+    </section>
+    <section id="ContactMe">
         <h2>Contact Me</h2>
-
-
-
     </section>
 </body>
+<footer>
+
+</footer>
 
 </html>
