@@ -42,6 +42,8 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
     
 }
 
@@ -50,15 +52,20 @@ h2 {
     text-align: left;
     font-family: cursive;
     font-weight: bold;
+    padding-bottom: 1%;
+    padding-top: 1%;
 
 }
 
 h3 {
     font-size: 100%;
     font-weight: bold;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 p   {
     font-size: 85%;
+    
 }
 
 .card-container {
@@ -83,6 +90,7 @@ p   {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px;
     width: 80%;
+    padding: 2%;
 }
 
 .smaller-images-container img {
@@ -119,13 +127,17 @@ p   {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+
 }
 
 .call a:hover {
     background-color: #a68e8e;
     color: black;
+
 }
 footer h2 {
     text-align: center;
+    padding-top: 1%;
+    font-size: 100%;
 
 }
