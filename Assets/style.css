@@ -35,13 +35,6 @@ h1 {
     text-align: center;
     /* color: aliceblue; */
 }
-
-h2 {
-    font-size: 150%;
-    text-align: left;
-
-}
-
 .image {
     height: 20%;
     width: 20%;
@@ -49,7 +42,23 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+}
 
+h2 {
+    font-size: 150%;
+    text-align: left;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+}
+p   {
+    font-size: 85%;
 }
 
 .card-container {
