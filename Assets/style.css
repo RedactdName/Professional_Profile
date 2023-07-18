@@ -18,7 +18,7 @@ body, html {
     text-decoration: none;
     font-size: 17px;
 }
-
+/* creates hover effect of nav bar when over sepcifc section */
 .navigation a:hover {
     background-color: #a68e8e;
     color: black;
@@ -80,11 +80,11 @@ p   {
     padding-bottom: 10px;
     width: 100%;
 }
-
+/* image of main card */
 .img-kauai {
     width: 80%;
 }
-
+/* details on remaining cards to display */
 .smaller-images-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -96,25 +96,25 @@ p   {
 .smaller-images-container img {
     width: 100%;
 }
-
+/* media query to keep primary image unchanged by different screen sizes */
 @media screen and (max-width: 900px) {
     .image {
         width: 150px;
     }
 }
-
+/* media query to adjust the text size when screen in tablet sized or smaller giving more visual appeal for the smaller screen */
 @media screen and (max-width: 768px) {
     .about-me-info {
         font-size: 10px;
     }
 }
-
+/* adjusts heading size once screen viewing it is smaller than 400px */
 @media screen and (max-width: 400px) {
     .hero-text {
         font-size: 20px;
     }
 }
-
+/* starts the contact me nav bar details to match top nav for continuity */
 .call {
     background-color: #f6c6c6;
     overflow: hidden;
