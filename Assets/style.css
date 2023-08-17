@@ -85,6 +85,7 @@ p   {
 .smaller-images-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
     gap: 10px;
     width: 80%;
     padding: 2%;
@@ -92,6 +93,7 @@ p   {
 
 .smaller-images-container img {
     width: 100%;
+    
 }
 /* media query to keep primary image unchanged by different screen sizes */
 @media screen and (max-width: 900px) {
